@@ -1,0 +1,212 @@
+/*--------------------------Headers----------------------------------*/
+h1, h2, h3{
+    font-family: 'montserrat', sans-serif;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    margin-top: 5px;
+    color: black;
+}
+
+/*-------------------------headings--------------------------------*/
+
+.big-heading{
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+
+#title{
+    color: white;
+    height: 700px;
+    padding: 3% 15%;
+}
+
+.title{
+
+    padding: 5rem;
+    border: 2rem;
+    line-height: 5rem;
+}
+
+.doggo-div{
+    position: relative;
+    background-color: #ff4c68;
+    left: 3%;
+}
+
+.doggo{
+    transform: rotate(20deg);
+    background-color: #ff4c68;
+    position: relative;
+    height: 40rem;
+}
+
+.navbar{
+    font-family: 'righteous', sans-serif;
+    font-size: 1rem;
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+/*----------------------------- Download Buttons ----------------------*/
+
+.download-button{
+    margin: 5% 3% 5% 0;
+
+}
+
+/* -----------------------------Features-------------------------------*/
+.feature-icon{
+
+    text-align: center;
+    margin-top: 2rem;
+
+    font-family: 'nunito', sans-serif;
+
+    padding:2rem;
+    color: #ef8172;
+    font-size: 1.2rem;
+}
+
+.icons{
+
+    color: #ef8172;
+    padding-bottom: 20px;
+
+}
+ 
+.icons:hover
+{
+    color: #ff4c68;
+}
+
+#features{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+
+/*---------------------------- testimonials -----------------------------*/
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-img{
+
+    width:10%;
+    border-radius:100%;
+}
+
+.testimonial-text{
+
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*------------------------------press section----------------------------*/
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-logo{
+
+    width: 15%;
+    margin: 20px 20px 15px;
+
+}
+
+.carousel-item{
+
+    padding: 7% 15%;
+}
+
+.col{
+    text-align: center;
+}
+
+/*--------------------------------pricing section---------------------------*/
+
+#pricing{
+
+    padding: 10px;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.price-text{
+
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.card-body{
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+.pricecard{
+
+    height: fit-content;
+}
+
+.pricingcolum{
+
+    padding: 3%;
+}
+
+
+@media (max-width: 1030px){
+
+    #title{
+
+        text-align: center;
+    }
+    .doggo{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/*-------------------------------cta-------------------------------------*/
+
+#cta{
+
+
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 8rem;
+    padding-bottom: 6rem;
+}
+
+#footer{
+
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.footer-icons{
+
+    margin: 0.4rem;
+}
+
